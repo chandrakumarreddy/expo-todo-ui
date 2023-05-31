@@ -8,7 +8,7 @@ export default function Navigation() {
   const { user, updateUser } = useUserGlobalStore();
   useEffect(() => {
     setTimeout(() => {
-      updateUser({ email: "test@test.com", name: "user" });
+      updateUser(null);
     }, 5000);
   }, []);
   return (

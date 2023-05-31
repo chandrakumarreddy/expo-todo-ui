@@ -1,7 +1,7 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { AuthStackParamList } from "./types";
-import WelcomeScreen from "@/screens/welcome-screen";
+import WelcomeScreen from "@/screens/welcome";
 import SignInScreen from "@/screens/auth/signin";
 import SignUpScreen from "@/screens/auth/signup";
 
