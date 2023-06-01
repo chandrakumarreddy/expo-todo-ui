@@ -5,7 +5,7 @@ import { TextInput } from "react-native-gesture-handler";
 
 type InputProps = {
   label: string;
-  error?: string;
+  error?: string | undefined;
   containerStyles?: ComponentProps<typeof Box>;
 } & ComponentProps<TextInput>;
 
@@ -30,6 +30,7 @@ export default function Input({
         style={styles.input}
         autoCorrect={false}
         autoComplete="off"
+        autoCapitalize="none"
         {...rest}
       />
     </Box>
