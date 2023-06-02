@@ -15,7 +15,7 @@ export default function BottonTabsNavigator() {
   return (
     <Tab.Navigator
       screenOptions={{
-        tabBarActiveTintColor: "black",
+        tabBarActiveTintColor: "blue",
         tabBarInactiveTintColor: theme.colors.gray550,
         tabBarHideOnKeyboard: true,
       }}
